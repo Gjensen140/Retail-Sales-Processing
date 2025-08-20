@@ -3,7 +3,7 @@
 A portfolio project that demonstrates how to build a **mini data warehouse** for retail sales using **SQL, Python (Pandas), and PostgreSQL**.  
 The project includes a simple **ETL pipeline**, a normalized schema, and analytical queries to uncover business insights.
 
-## 🗄️ Data Model
+## Data Model
 
 The dataset includes columns: `Transaction ID`, `Date`, `Customer ID`, `Gender`, `Age`, `Product Category`, `Quantity`, `Price per Unit`, `Total Amount`.  
 
@@ -27,7 +27,7 @@ It was normalized into three tables:
   - `quantity`  
   - `total_amount`
 
- ## ⚙️ ETL Workflow
+ ## ETL Workflow
 
 1. **Extract** → Read raw CSV into Pandas.  
 2. **Transform** →  
